@@ -1,0 +1,140 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255); 
+    color: #333;
+}
+
+header {
+    background-color: rgb(245, 172, 15); 
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+
+.central-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(255, 242, 204); 
+    margin: 20px 0;
+    
+}
+
+.central-row .classes,
+.central-row .favorites {
+    background-color: rgb(255, 242, 204); 
+    padding: 20px;
+    box-sizing: border-box; 
+    border-radius: 8px;
+    flex: 1; 
+    min-height: 200px; 
+    
+}
+
+.central-row .classes h2,
+.central-row .favorites h2 {
+    font-size: 1.5em;
+}
+
+.central-row .classes ul,
+.central-row .favorites ol {
+    padding-left: 20px;
+}
+
+.central-row .favorites a {
+    color: #333;
+    text-decoration: none;
+}
+
+.central-row .favorites a:hover {
+    text-decoration: underline;
+}
+
+
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.info-table td {
+    padding: 20px;
+    vertical-align: top;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 8px;
+    
+}
+
+
+.table-column-left,
+.table-column-center,
+.table-column-right {
+    background-color: rgb(213, 232, 212); 
+    color: #333;
+    padding: 20px;
+    width: 33%;
+    box-sizing: border-box;
+    
+}
+
+
+.mood-box {
+    background-color: rgb(213, 232, 212); 
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    min-height: 200px; 
+    
+}
+
+.mood-box img {
+    width: 100%; 
+    height: auto;
+    max-width: 250px; 
+    margin: 10px 0;
+}
+
+
+.table-column-right h2 {
+    font-size: 1.5em;
+}
+
+.table-column-right p {
+    font-size: 1.2em;
+}
+
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .central-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .central-row .classes,
+    .central-row .favorites {
+        width: 100%;
+    }
+
+    .info-table td {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
