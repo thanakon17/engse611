@@ -1,10 +1,7 @@
-// This is a single line of code
+// นี่คือความคิดเห็นบรรทัดเดียว
+let name = "John"; // ประกาศตัวแปรชื่อ name และเก็บค่า "John"
 
 /*
-Multi-line comment
-console.log(100);
-
-console.log('Hello World');
-
-console.log(20, 'Hello', true);
+นี่คือความคิดเห็น
+หลายบรรทัด
 */

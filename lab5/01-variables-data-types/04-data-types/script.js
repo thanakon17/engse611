@@ -1,44 +1,23 @@
-// String
-const firstName = 'Sara';
+//Number
+let age = 30;
+let price = 99.99;
 
-// Number
-const age = 30;
-const temp = 98.9;
+//String
+let name = "John";
+let message = 'Hello, world!';
 
-// Boolean
-const hasKids = true;
+//Boolean
+let isLoggedIn = true;
+let isAdult = false;
 
-// Null
-const aptNumber = null;
+//Null
+let user = null;
 
-// Undefined
-// let score;
-const score = undefined;
+//Undifined
+let city; // ตัวแปร city ยังไม่ได้กำหนดค่า
 
-// Symbol
+//Symbol
 const id = Symbol('id');
 
-// BigInt
-const n = 9007199254740991n;
-
-// Reference Types
-
-const numbers = [1, 2, 3, 4];
-
-const person = {
-  name: 'Brad',
-};
-
-function sayHello() {
-  console.log('Hello');
-}
-
-const output = sayHello;
-
-console.log(output, typeof output);
-
-// More info on why typeof null == object
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#typeof_null
-
-//  More info on the "function object" type
-// https://262.ecma-international.org/5.1/#sec-11.4.3
+//BigInt
+const bigNumber = 1234567890123456789012345678901234567890n;

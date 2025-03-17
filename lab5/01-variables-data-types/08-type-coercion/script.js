@@ -1,28 +1,8 @@
-let x;
+let result = 10 + "5"; // "5" ถูกแปลงเป็นตัวเลข ทำให้ผลลัพธ์เป็น 15 (Number)
+console.log(result); // Output: 15
+console.log(typeof result); // Output: number
 
-// Coerced to a string
-x = 5 + '5';
-
-x = 5 + Number('5');
-
-// Coerced to a number
-x = 5 * '5';
-
-// null is coerced to 0 as it is a `falsy` value
-x = 5 + null;
-
-x = Number(null);
-
-x = Number(true);
-x = Number(false);
-
-// true is coerced to a 1
-x = 5 + true;
-
-// false is coerced to 0 (falsy)
-x = 5 + false;
-
-// Undefined is coerced to 0 (falsy)
-x = 5 + undefined;
-
-console.log(x, typeof x);
+let x = 10;
+let y = "10";
+console.log(x == y); // "10" ถูกแปลงเป็นตัวเลข ทำให้ผลลัพธ์เป็น true
+console.log(x === y); // ตรวจสอบทั้งค่าและประเภท ทำให้ผลลัพธ์เป็น false
