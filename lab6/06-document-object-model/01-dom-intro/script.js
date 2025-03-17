@@ -6,9 +6,7 @@ console.dir(window.document);
 
 // We can access DOM elements directly with properties
 console.log(document.body);
-if (document.links.length > 0) {
-    console.log(document.links[0]);
-}
+console.log(document.links[0]);
 
 // We can set properties of elements
 // document.body.innerHTML = '<h1>Hello from body</h1>';
