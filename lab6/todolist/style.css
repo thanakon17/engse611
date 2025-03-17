@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wdth,wght@62.5..100,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Noto Sans", serif;
+    background: #121212;
+    color: #B2C9AD;
+    text-align: center;
+    margin: 15%;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+}
+
+input {
+    flex: 1;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #B2C9AD;
+    background: #1E1E1E;
+    color: #B2C9AD;
+}
+
+button {
+    width: 120px;
+    background: #91AC8F;
+    padding: 12px 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+    align-items: end;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background: #B2C9AD;
+}
+
+button.delete-button {
+    background-color: #8E1616;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 60%;
+  }
+  
+  button.delete-button:hover {
+    background-color: #B22222;
+  }
+
+ul#todo-list {
+    list-style-type: none;
+    padding: 0%;
+    margin-top: 20px;
+}
+
+ul#todo-list li {
+    background: #B2C9AD;
+    color: #121212;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+}
